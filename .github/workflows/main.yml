@@ -7,11 +7,14 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
-      - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
+      - name: Install packages
+        run: npm ci
+      - name: Build project
+        run: npm run build
+      - name: Export static files
+        run: npm run export
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
