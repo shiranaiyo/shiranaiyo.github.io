@@ -6,15 +6,15 @@ const siteMetadata = {
     "An ignorant's blog about his vague ideas about math, computer science, logic and others.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://shiranaiyo.github.io/',
+  siteRepo: 'https://github.com/shiranaiyo/shiranaiyo.github.io',
   siteLogo: '/static/images/logo.svg',
   image: '/static/images/logo.svg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'fernandochu97@gmail.com',
   github: 'https://github.com/shiranaiyo',
   twitter: 'https://twitter.com/shiranaiyo_',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: '',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
