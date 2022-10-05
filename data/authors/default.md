@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Fernando Chu
+avatar: /static/images/logo.svg
+occupation: Expert Ignorant
+# company: Stanford University
+email: fernandochu97@gmail.com
+twitter: https://twitter.com/shiranaiyo_
+# linkedin: https://www.linkedin.com
+github: https://github.com/shiranaiyo
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I'm in the last semester of my Master's in Pure Mathematics at the Universidad Nacional Mayor de San Marcos, Peru. I'm trying to understand better the foundations of mathematics and improve them if possible.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I believe that, in the future, all our formal knowledge will be verified by computer programs. I wish to participate in both the conceptual development, as well as the concrete implementation of these systems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Humans are born ignorant and will die so. But every single day we learn a little bit more.

@@ -42,6 +42,7 @@ const Giscus = () => {
     script.setAttribute('data-input-position', inputPosition)
     script.setAttribute('data-lang', lang)
     script.setAttribute('data-theme', commentsTheme)
+    script.setAttribute('data-loading', 'lazy')
     script.setAttribute('crossorigin', 'anonymous')
     script.async = true
 
@@ -56,6 +57,7 @@ const Giscus = () => {
 
   // Reload on theme change
   useEffect(() => {
+    LoadComments()
     const iframe = document.querySelector('iframe.giscus-frame')
     if (!iframe) return
     LoadComments()

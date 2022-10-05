@@ -1,19 +1,21 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: `Master's Thesis`,
+    description: `A formalization of my Master's thesis in Agda, as well as
+    the latex source files for the documents. The thesis is a primer on
+    Homotopy Type Theory written in spanish, ending with a calculation of
+    the fundamental group of the circle.`,
+    imgSrc: '/static/images/projects/agda.png',
+    href: 'https://github.com/Ryunaq/MastersThesis',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'HoTT Book in Agda',
+    description: `A formalization of the Homotopy Type Theory Book in Agda.
+    It is incomplete, as of now, but I have formalized a decent chuck of the
+    core topics, like the fact that \`is-equiv\` is a proposition, and basic
+    results about n-types.`,
+    imgSrc: '/static/images/projects/agda.png',
+    href: 'https://github.com/shiranaiyo/HoTT-Book-Agda',
   },
 ]
 
