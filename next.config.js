@@ -53,7 +53,6 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
-  assetPrefix: './',
   images: {
     unoptimized: true,
   },
