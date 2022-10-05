@@ -56,6 +56,9 @@ module.exports = withBundleAnalyzer({
   images: {
     unoptimized: true,
   },
+
+  assetPrefix: 'https://shiranaiyo.github.io/',
+
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
